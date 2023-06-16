@@ -22,8 +22,12 @@ export function TodosProvider({children}: { children: ReactNode }) {
 
     // The state variable todos is expected to be an array of Todo objects.
     const [todos, setTodos] = useState<Todo[]>(() => {
+        try{
         const newTodos = localStorage.getItem('todos') || "[]";
         return JSON.parse(newTodos) as Todo[]
+        }catch (e) {
+            return []
+        }
 
     }) //an array of Todo objects
     function handleAddTodo(task: string) {
