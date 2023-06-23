@@ -17,6 +17,8 @@ export  const Todos = () => {
         filteredTodos = todos.filter((todo) => todo.completed);
     }
 
+    // thapa technical
+
     return (
         <ul className="main-task">
             {

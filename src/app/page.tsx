@@ -10,8 +10,6 @@ const Page = () => {
           <h2><RiTodoLine className="icons" /> TODO NEXT + TYPESCRIPT <RiTodoLine className="icons" /> </h2>
           <Navbar />
           <AddTodo />
-
-
           <Todos />
       </main>
     );

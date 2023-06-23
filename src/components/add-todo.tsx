@@ -8,6 +8,8 @@ export function AddTodo() {
 
  const { handleAddTodo} = useTodos();
 
+    // thapa technical
+
  function handleFormSubmit (e:FormEvent<HTMLFormElement>){
      e.preventDefault();
      handleAddTodo(todo) // to add the data in an array
