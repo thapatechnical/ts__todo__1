@@ -3,7 +3,7 @@ import {Todos} from "@/components/todos";
 import Navbar from "@/components/navbar";
 import "./globals.css";
 import { RiTodoLine } from "react-icons/ri";
-
+// thapa technical SUBSCRIBE
 const Page = () => {
     return (
       <main>

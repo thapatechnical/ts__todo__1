@@ -8,7 +8,7 @@ export function AddTodo() {
 
  const { handleAddTodo} = useTodos();
 
-    // thapa technical
+    // thapa technical SUBSCRIBE
 
  function handleFormSubmit (e:FormEvent<HTMLFormElement>){
      e.preventDefault();

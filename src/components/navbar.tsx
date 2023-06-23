@@ -1,7 +1,7 @@
 'use client'
 import Link from "next/link";
 import {useSearchParams} from "next/navigation";
-// thapa technical
+// thapa technical SUBSCRIBE
 const Navbar = () => {
 
     const searchParams = useSearchParams();
