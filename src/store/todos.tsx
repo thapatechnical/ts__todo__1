@@ -9,6 +9,8 @@ export type Todo = {
     createdAt: Date;
 }
 
+//thapa technical
+
 export type TodosContext = {
     todos: Todo[];
     handleAddTodo: (task: string) => void; //call signature
